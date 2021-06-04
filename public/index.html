@@ -8,6 +8,30 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
+    <style type="text/css">
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: #333;
+        color: #fff;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      input.hacker {
+        height: 35px;
+        font-family: "Menlo", "Monaco", "Courier New", Courier, monospace;
+        font-size: 14px;
+        padding: 2px 10px;
+        background: #555;
+        border: none;
+        color: #fff;
+      }
+    </style>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
